@@ -1,0 +1,42 @@
+{
+    "version": "87.0.4280.141",
+    "description": "Ungoogled Chromium browser.",
+    "homepage": "https://chromium.woolyss.com",
+    "license": "BSD-3-Clause",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/macchrome/winchrome/releases/download/v87.0.4280.141-r812852-Win64/ungoogled-chromium-87.0.4280.141-1_Win64.7z",
+            "hash": "sha1:7f65955e3d65992b27ff7687043063753e7b8693",
+            "extract_dir": "ungoogled-chromium-87.0.4280.88-1_Win64"
+        }
+    },
+    "bin": [
+        "chrome.exe",
+        [
+            "chrome.exe",
+            "unchrome"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "chrome.exe",
+            "unChromium"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/macchrome/winchrome",
+        "regex": "v([\\d.]+)-r(?<build>\\d+)-Win64"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/macchrome/winchrome/releases/download/v$version-r$matchBuild-Win64/ungoogled-chromium-$version-1_Win64.7z",
+                "extract_dir": "ungoogled-chromium-$version-2_Win64"
+            }
+        },
+        "hash": {
+            "url": "https://github.com/macchrome/winchrome/releases/v$version-r$matchBuild-Win64",
+            "regex": "(?s)$basename.*?$sha1"
+        }
+    }
+}
