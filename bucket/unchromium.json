@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/macchrome/winchrome/releases/download/v87.0.4280.141-r812852-Win64/ungoogled-chromium-87.0.4280.141-1_Win64.7z",
-            "hash": "sha1:7f65955e3d65992b27ff7687043063753e7b8693",
+            "hash": "sha1:bac17220e481ff65a40c813dfcbbb6e13049180b",
             "extract_dir": "ungoogled-chromium-87.0.4280.88-1_Win64"
         }
     },
@@ -14,7 +14,7 @@
         "chrome.exe",
         [
             "chrome.exe",
-            "unchrome"
+            "unchromium"
         ]
     ],
     "shortcuts": [
