@@ -46,6 +46,6 @@
         "hash": {
             "url": "https://github.com/macchrome/winchrome/releases/v$version-r$matchBuild-Win64",
             "regex": "(?s)$basename.*?$sha1"
-        1
+        }
     }
 }
