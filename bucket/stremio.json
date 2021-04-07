@@ -1,10 +1,10 @@
 {
-    "version": "4.4.120",
+    "version": "4.4.135",
     "description": "Stremio media center",
     "homepage": "https://www.stremio.com/",
     "license": "private",
-    "url": "https://dl.strem.io/shell-win/v4.4.120/stremio+4.4.120.exe#/dl.7z",
-    "hash": "sha1:177558b66c2fc94833af6f1e9aadfa52ddedbc7f",
+    "url": "https://dl.strem.io/shell-win/v4.4.135/Stremio+4.4.135.exe#/dl.7z",
+    "hash": "sha1:f839d2195f2081f32e3bc4549edc0c9a3a65145a",
     "bin": "stremio.exe",
     "shortcuts": [
         [
