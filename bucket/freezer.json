@@ -1,12 +1,12 @@
 {
-    "version": "1.1.21",
+    "version": "1.1.22",
     "description": "Freezer Media Player",
     "homepage": "https://git.freezer.life/exttex/freezerpc",
     "license": "GPL-v3",
     "architecture":{
       "64bit":{
-        "url": "https://files.freezer.life/0:/PC/1.1.21/Freezer%20Setup%201.1.21.exe#/dl.7z",
-        "hash": "sha1:e3d47acbf729b4ccf56ced7517ba29260a7a2be8"
+        "url": "https://files.freezer.life/0:/PC/1.1.22/Freezer%20Setup%201.1.22.exe#/dl.7z",
+        "hash": "sha1:90ce22df32a682df92ec071c7ba395a34c09e821"
       }
     },
     "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
