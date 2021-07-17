@@ -6,7 +6,8 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/macchrome/winchrome/releases/download/v91.0.4472.164-r870763-Win64/ungoogled-chromium-91.0.4472.164-1_Win64.7z",
-            "hash": "sha1:f38cae109552183bcfc92402bdc976264c886144"
+            "hash": "sha1:f38cae109552183bcfc92402bdc976264c886144",
+            "extract_dir": "ungoogled-chromium-91.0.4472.164-1_Win64"
         }
     },
     "bin": [
