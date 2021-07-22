@@ -7,7 +7,7 @@
         "64bit": {
             "url": "https://github.com/macchrome/winchrome/releases/download/v92.0.4515.107-r885287-Win64/ungoogled-chromium-92.0.4515.107-1_Win64.7z",
             "hash": "sha1:b35e97e457db2e4d5402518142973e8d798756b3",
-            "extract_dir": "ungoogled-chromium-92.0.4515.107-1_Win64"
+            "extract_dir": "ungoogled-chromium- 92.0.4515.107-1_Win64"
         }
     },
     "bin": [
