@@ -1,31 +1,31 @@
 {
-    "version": "2.0.2",
+    "version": "2.0.3",
     "description": "A lightweight text editor written in Lua based on lite",
     "homepage": "https://github.com/lite-xl/lite-xl",
     "license": "MIT License",
     "architecture":{
         "64bit":{
             "url":[
-                "https://github.com/lite-xl/lite-xl/releases/download/v2.0.2/lite-xl-windows-x86_64.zip",
-                "https://raw.githubusercontent.com/lukesampson/scoop-extras/master/scripts/vscode-install-context.reg#/lite-xl-install-context.reg",
-                "https://raw.githubusercontent.com/lukesampson/scoop-extras/master/scripts/vscode-uninstall-context.reg#/lite-xl-uninstall-context.reg"
+                "https://github.com/lite-xl/lite-xl/releases/download/v2.0.3/lite-xl-windows-x86_64.zip",
+                "https://raw.githubusercontent.com/Nirose/node/main/static/install-context.reg#/lite-xl-install-context.reg",
+                "https://raw.githubusercontent.com/Nirose/node/main/static/uninstall-context.reg#/lite-xl-uninstall-context.reg"
             ],
             "hash":[
-                "sha1:2895a74af80a342844598b0e5b6058bc7ca50c19",
-                "sha1:5af744e185048cc7c6f6dc3f48b2ded0476c282d",
+                "sha1:1d65bd1258ac805ae028fbfe57cdc1fc7eeb7862",
+                "sha1:2b32a0909b49a36ada0f88536e0af32405a9e555",
                 "sha1:1c9cc5342f9ee4fbb4f3a8e8683743b26d6207b5"
             ]
 
         },
         "32bit":{
             "url":[
-                "https://github.com/lite-xl/lite-xl/releases/download/v2.0.2/lite-xl-windows-x86.zip",
-                "https://raw.githubusercontent.com/lukesampson/scoop-extras/master/scripts/vscode-install-context.reg#/lite-xl-install-context.reg",
-                "https://raw.githubusercontent.com/lukesampson/scoop-extras/master/scripts/vscode-uninstall-context.reg#/lite-xl-uninstall-context.reg"
+                "https://github.com/lite-xl/lite-xl/releases/download/v2.0.3/lite-xl-windows-x86.zip",
+                "https://raw.githubusercontent.com/Nirose/node/main/static/install-context.reg#/lite-xl-install-context.reg",
+                "https://raw.githubusercontent.com/Nirose/node/main/static/uninstall-context.reg#/lite-xl-uninstall-context.reg"
             ],
             "hash":[
-                "sha1:ce2f23c8125dbd08f7b81a7925f1ea4ac48d515d",
-                "sha1:5af744e185048cc7c6f6dc3f48b2ded0476c282d",
+                "sha1:864d47f890435d0383dbacefd0672e9fe6748ca6",
+                "sha1:2b32a0909b49a36ada0f88536e0af32405a9e555",
                 "sha1:1c9cc5342f9ee4fbb4f3a8e8683743b26d6207b5"
             ]
         }
