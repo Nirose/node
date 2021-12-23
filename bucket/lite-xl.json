@@ -6,7 +6,7 @@
     "architecture":{
         "64bit":{
             "url":[
-                "https://github.com/lite-xl/lite-xl/releases/download/v2.0.4/lite-xl-windows-x86.zip",
+                "https://github.com/lite-xl/lite-xl/releases/download/v2.0.4/lite-xl-windows-x86_64.zip",
                 "https://raw.githubusercontent.com/Nirose/node/main/static/install-context.reg#/lite-xl-install-context.reg",
                 "https://raw.githubusercontent.com/Nirose/node/main/static/uninstall-context.reg#/lite-xl-uninstall-context.reg"
             ],
@@ -19,7 +19,7 @@
         },
         "32bit":{
             "url":[
-                "https://github.com/lite-xl/lite-xl/releases/download/v2.0.4/lite-xl-windows-x86_64.zip",
+                "https://github.com/lite-xl/lite-xl/releases/download/v2.0.4/lite-xl-windows-x86.zip",
                 "https://raw.githubusercontent.com/Nirose/node/main/static/install-context.reg#/lite-xl-install-context.reg",
                 "https://raw.githubusercontent.com/Nirose/node/main/static/uninstall-context.reg#/lite-xl-uninstall-context.reg"
             ],
