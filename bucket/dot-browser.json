@@ -12,7 +12,7 @@
     "bin": "/core/dot.exe",
     "shortcuts": [
         [
-            "dot.exe",
+            "/core/dot.exe",
             "Dot Browser"
         ]
     ]
