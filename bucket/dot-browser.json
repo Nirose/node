@@ -9,10 +9,10 @@
               "hash": "sha1:6cb63194f2694f080cf938aaa63291796a30a6a0"
           }
       },
-    "bin": "/core/dot.exe",
+    "bin": "core/dot.exe",
     "shortcuts": [
         [
-            "/core/dot.exe",
+            "core/dot.exe",
             "Dot Browser"
         ]
     ]
