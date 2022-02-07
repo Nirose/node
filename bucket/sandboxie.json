@@ -14,6 +14,17 @@
       }
     },
     "innosetup": true,
+    "persist": [
+        "Sandboxie.ini"
+    ],
+    "pre_install": [
+        "if (Test-Path \"$persist_dir\\Sandboxie.ini\") {",
+        "    Copy-Item \"$persist_dir\\Sandboxie.ini\" \"$dir\"",
+        "}"
+    ],
+    "uninstaller": {
+        "script": "Copy-Item \"$dir\\Sandboxie.ini\" \"$persist_dir\" -ErrorAction SilentlyContinue -Force"
+    },
     "bin": "SandMan.exe",
     "shortcuts": [
         [
