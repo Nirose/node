@@ -1,16 +1,16 @@
 {
-    "version": "0.4.6",
+    "version": "0.4.7",
     "description": "Popcorn-Time Home Media Center",
     "homepage": "https://github.com/popcorn-official/popcorn-desktop",
-    "license": "gpl-3",
+    "license": "GPL-3",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/popcorn-official/popcorn-desktop/releases/download/v0.4.6/Popcorn-Time-0.4.6-win64.zip",
-            "hash": "sha1:78db16e0dcf036438748a70c4d6e70589c7e4517"
+            "url": "https://github.com/popcorn-official/popcorn-desktop/releases/download/v0.4.7/Popcorn-Time-0.4.7-win64.zip",
+            "hash": "sha1:1fc12dd936017eeea478de8ad043bb381b1e5ed3"
         },
         "32bit": {
-            "url": "https://github.com/popcorn-official/popcorn-desktop/releases/download/v0.4.6/Popcorn-Time-0.4.6-win32.zip",
-            "hash": "sha1:cd7e21e02028d3d08f7932b7d2fcb6ae25c138eb"
+            "url": "https://github.com/popcorn-official/popcorn-desktop/releases/download/v0.4.7/Popcorn-Time-0.4.7-win32.zip",
+            "hash": "sha1:7f4ed88083fef9f49c31a576d13dca558e996691"
         }
     },
     "bin": [
@@ -27,17 +27,17 @@
         ]
     ],
     "checkver": {
-        "github": "https://github.com/popcorn-official/popcorn-desktop/",
+        "github": "https://github.com/popcorn-official/popcorn-desktop/releases/latest",
         "regex": "<title>Release v([\\d.]+)"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/popcorn-official/popcorn-desktop/releases/download/v$version/popcorn-time-$version-win64.zip",
+                "url": "https://github.com/popcorn-official/popcorn-desktop/releases/download/v$version/Popcorn-Time-$version-win64.zip",
                 "extract_dir": "popcorn-time-$version-win64"
             },
             "32bit": {
-                "url": "https://github.com/popcorn-official/popcorn-desktop/releases/download/v$version/popcorn-time-$version-win32.zip",
+                "url": "https://github.com/popcorn-official/popcorn-desktop/releases/download/v$version/Popcorn-Time-$version-win32.zip",
                 "extract_dir": "popcorn-time-$version-win32"
             }
         }
