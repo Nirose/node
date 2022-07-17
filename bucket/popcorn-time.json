@@ -6,11 +6,11 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/popcorn-official/popcorn-desktop/releases/download/v0.4.8/Popcorn-Time-0.4.8-win64.zip",
-            "hash": "sha1:0f672184462ca504451b08c03741929017a61fd"
+            "hash": "sha1:80f672184462ca504451b08c03741929017a61fd"
         },
         "32bit": {
             "url": "https://github.com/popcorn-official/popcorn-desktop/releases/download/v0.4.8/Popcorn-Time-0.4.8-win32.zip",
-            "hash": "sha1:0a61eccad4dc074033eed26b9b4187480e98906ee"
+            "hash": "sha1:0a61eccad4dc074033eed26b9b4187480e98906e"
         }
     },
     "bin": [
