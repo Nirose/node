@@ -32,7 +32,6 @@
     },
     "extract_dir": "lite-xl",
     "persist": [
-        "data\\plugins",
         "data\\user"
     ],
     "bin": "lite-xl.exe",
