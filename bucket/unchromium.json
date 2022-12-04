@@ -1,13 +1,13 @@
 {
-    "version": "107.0.5304.62",
+    "version": "108.0.5359.95",
     "description": "Ungoogled Chromium browser.",
     "homepage": "https://chromium.woolyss.com",
     "license": "BSD-3-Clause",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/macchrome/winchrome/releases/download/v107.5304.62-M107.0.5304.62-r1047731-Win64/ungoogled-chromium-107.0.5304.62-1_Win64.7z",
-            "hash": "sha1:71e214786b4962f1abe068419a42a31128ad3399",
-            "extract_dir": "ungoogled-chromium-107.0.5304.62-1_Win64"
+            "url": "https://github.com/macchrome/winchrome/releases/download/v108.5359.95-M108.0.5359.95-r1016-Win64/ungoogled-chromium-108.0.5359.95-1_Win64.7z",
+            "hash": "sha1:32dbce7c115de1ed52513dcd9342fc7aee093da0",
+            "extract_dir": "ungoogled-chromium-108.0.5359.95-1_Win64"
         }
     },
     "bin": [
