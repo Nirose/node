@@ -1,16 +1,12 @@
 {
-    "version": "0.5.0",
+    "version": "0.5.1",
     "description": "Popcorn-Time Home Media Center",
     "homepage": "https://github.com/popcorn-official/popcorn-desktop",
     "license": "GPL-3",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/popcorn-official/popcorn-desktop/releases/download/v0.5.0/Popcorn-Time-0.5.0-win64.zip",
-            "hash": "sha1:cbb9e69bc9e29c09c188d778625db81d0219b9bb"
-        },
-        "32bit": {
-            "url": "https://github.com/popcorn-official/popcorn-desktop/releases/download/v0.5.0/Popcorn-Time-0.5.0-win32.zip",
-            "hash": "sha1:e142b53369686f88dc6aab17ad2bff0d306ab4e1"
+            "url": "https://github.com/popcorn-official/popcorn-desktop/releases/download/v0.5.1/Popcorn-Time-0.5.1-win64.zip",
+            "hash": "sha1:f06f37c5b0b4c93bee06e29d489d0ad8de1b09a3"
         }
     },
     "bin": [
@@ -35,10 +31,6 @@
             "64bit": {
                 "url": "https://github.com/popcorn-official/popcorn-desktop/releases/download/v$version/Popcorn-Time-$version-win64.zip",
                 "extract_dir": "popcorn-time-$version-win64"
-            },
-            "32bit": {
-                "url": "https://github.com/popcorn-official/popcorn-desktop/releases/download/v$version/Popcorn-Time-$version-win32.zip",
-                "extract_dir": "popcorn-time-$version-win32"
             }
         }
     }
