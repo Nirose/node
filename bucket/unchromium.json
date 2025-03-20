@@ -7,7 +7,7 @@
         "64bit": {
             "url": "https://github.com/macchrome/winchrome/releases/download/v134.6998.116-M134.0.6998.116-r1415337-Win64/ungoogled-chromium-134.0.6998.116-1_Win64.7z",
             "hash": "sha1:1E259E42B5BF2A7798E4E6F3C2699C77C040923F",
-            "extract_dir": "ungoogled-chromium-134.0.6998.116-1_Win64.7z"
+            "extract_dir": "ungoogled-chromium-134.0.6998.116-1_Win64"
         }
     },
     "bin": [
