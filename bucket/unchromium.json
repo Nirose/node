@@ -1,13 +1,13 @@
 {
-    "version": "138.0.7204.100",
+    "version": "138.0.7204.157",
     "description": "Ungoogled Chromium browser.",
     "homepage": "https://chromium.woolyss.com",
     "license": "BSD-3-Clause",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ungoogled-software/ungoogled-chromium-windows/releases/download/138.0.7204.100-1.1/ungoogled-chromium_138.0.7204.100-1.1_windows_arm64.zip",
-            "hash": "sha256:d84396aeb5bbf279f319ef0b0889d5ecf5f12a0f1260da8f536c0a25e3257487",
-            "extract_dir": "ungoogled-chromium_138.0.7204.100-1.1_windows_arm64"
+            "url": "https://github.com/ungoogled-software/ungoogled-chromium-windows/releases/download/138.0.7204.157-1.1/ungoogled-chromium_138.0.7204.157-1.1_windows_arm64.zip",
+            "hash": "sha256:2e9b7b05a645149f1226152c5c9d32c0fc3d03ce9e321413c6715eb5f7f1cf46",
+            "extract_dir": "ungoogled-chromium_138.0.7204.157-1.1_windows_arm64"
         }
     },
     "bin": [
