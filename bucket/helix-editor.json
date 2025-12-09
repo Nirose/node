@@ -1,13 +1,13 @@
 {
-    "version": "22.03",
+    "version": "25.07.1",
     "description": "Helix Editor for Scoop",
     "homepage": "https://github.com/helix-editor/helix",
     "license": "MPL-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/helix-editor/helix/releases/download/22.03/helix-22.03-x86_64-windows.zip",
-            "hash": "sha1:dddbeeeb7f847d99a28b8e6c8af1da0ed8f848f7",
-            "extract_dir": "helix-22.03-x86_64-windows"
+            "url": "https://github.com/helix-editor/helix/releases/download/25.07.1/helix-25.07.1-x86_64-windows.zip",
+            "hash": "sha256:5c8325ced8bacd8418d62706f669e96d9c3578a9237526e34d546900cbc049b6",
+            "extract_dir": "helix-25.07.1-x86_64-windows"
         }
     },
     "bin":"hx.exe",
